@@ -37,8 +37,8 @@ Before running the bot, make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-https://github.com/ka3en/Telegram-to-Instagram.git
-cd telegram-instagram-reels-uploader-bot
+https://github.com/otterai/TGmeta.git
+cd TGmeta
 ```
 
 ### 2. Install Dependencies
@@ -114,7 +114,7 @@ We welcome contributions! Please feel free to open issues or submit pull request
 
 ## Contact
 
-For any issues or suggestions, feel free to open an issue on the GitHub repository, or reach out via email at [karen@i-karen.ir](mailto:karen@i-karen.ir).
+For any issues or suggestions, feel free to open an issue on the GitHub repository, or reach out via Telegram at [@metaui](t.me/metaui).
 
 ---
 
