@@ -97,6 +97,15 @@ The bot will start running and be ready to handle incoming messages.
 - "📤 ارسال یک Reels" (in Persian) or "📤 Upload a Reels" (in English) – Upload a single Reel.
 - "📤 ارسال چند Reels همزمان" (in Persian) or "📤 Upload Multiple Reels" (in English) – Upload multiple Reels.
 
+
+# All Thanks To Our Contributors
+
+<a href="https://github.com/otterai/TGmeta/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=otterai/TGmeta" />
+</a>
+
+
+
 ## Notes
 
 - The bot will upload multiple Reels with a 30-second gap between uploads.
