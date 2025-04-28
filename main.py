@@ -4,7 +4,7 @@ import asyncio
 from pyrogram import Client, filters
 from instagrapi import Client as InstaClient
 from pyrogram.types import ReplyKeyboardMarkup, KeyboardButton
-
+"""
 #env Change This to your varible's
 TELEGRAM_API_ID = "5843476"  #here put your api id
 TELEGRAM_API_HASH = "8121c753chj5688cc2623d1277338d"  #hash id
@@ -14,6 +14,24 @@ INSTAGRAM_PASSWORD = "YOUR PASSWORD" # password the instagram account
 AUTHORIZED_USERS_FILE = "authorized_users.txt" # this file save allowed users id to use bot 
 CAPTION_FILE = "caption.txt" # this file save caption to use in reels
 DEFAULT_LANGUAGE = "en"  # here you can change language (en=english fa=farsi)
+"""
+import os
+
+# Telegram Configuration
+TELEGRAM_API_ID = os.getenv("TELEGRAM_API_ID", "21254534")  # Default value only for development
+TELEGRAM_API_HASH = os.getenv("TELEGRAM_API_HASH", "b39265cb4c3f01470f4b902cafecca82")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7311234918:AAHBLUWQCAWXhjX-iqoa7dPW9sPFflAUbX0")
+
+# Instagram Configuration
+INSTAGRAM_USERNAME = os.getenv("INSTAGRAM_USERNAME", "ai.baoli")
+INSTAGRAM_PASSWORD = os.getenv("INSTAGRAM_PASSWORD", "")  # Never hardcode passwords
+
+# File Paths
+AUTHORIZED_USERS_FILE = os.getenv("AUTHORIZED_USERS_FILE", "authorized_users.txt")
+CAPTION_FILE = os.getenv("CAPTION_FILE", "caption.txt")
+
+# App Settings
+DEFAULT_LANGUAGE = os.getenv("DEFAULT_LANGUAGE", "en")  # en=english, fa=farsi
 
 
 insta_client = InstaClient()
